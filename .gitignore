@@ -7,6 +7,8 @@ target/
 ui.frontend/node_modules/
 ui.frontend/node/
 
+.repo
+
 # Created by https://www.gitignore.io/api/eclipse,java,maven
 
 ### Eclipse ###
