@@ -2,6 +2,27 @@
 
 This is a project template for AEM-based applications. It is intended as a best-practice set of examples as well as a potential starting point to develop your own functionality.
 
+## Create
+
+```bash
+smvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate -D archetypeGroupId=com.adobe.aem -D archetypeArtifactId=aem-project-archetype -D archetypeVersion=39 -D appTitle="WKND Sites Project" -D appId="wknd" -D groupId="com.adobe.aem.guides" -D artifactId="aem-guides-wknd" -D package="com.adobe.aem.guides.wknd" -D version="0.0.1-SNAPSHOT" -D aemVersion="cloud" -D sdkVersion="2022.8.8316.20220818T100409Z-220800"
+```
+
+```bash
+mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate \
+    -D archetypeGroupId=com.adobe.aem \
+    -D archetypeArtifactId=aem-project-archetype \
+    -D archetypeVersion=39 \
+    -D appTitle="WKND Sites Project" \
+    -D appId="wknd" \
+    -D groupId="com.adobe.aem.guides" \
+    -D artifactId="aem-guides-wknd" \
+    -D package="com.adobe.aem.guides.wknd" \
+    -D version="1.0.0" \
+    -D aemVersion="cloud" \
+    -D sdkVersion="2022.8.8316.20220818T100409Z-220800"
+```
+
 ## Modules
 
 The main parts of the template are:
