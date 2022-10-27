@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-10-27T16:14:05.306+02:00"
+        cq:lastModified="{Date}2022-10-27T16:24:42.729+02:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
@@ -29,18 +29,20 @@
                     <helloworld_7017316
                         jcr:created="{Date}2022-10-27T16:14:05.265+02:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-10-27T16:14:05.265+02:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/helloworld"/>
-                    <helloworld
-                        jcr:created="{Date}2022-10-27T16:09:15.369+02:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-10-27T16:12:48.618+02:00"
+                        jcr:lastModified="{Date}2022-10-27T16:24:21.826+02:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/helloworld"
-                        text="text one"/>
+                        title="Demo Component Title 1"/>
+                    <helloworld
+                        jcr:created="{Date}2022-10-27T16:09:15.369+02:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-10-27T16:24:42.727+02:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/helloworld"
+                        text="text two"
+                        title="Demo Component Title 2"/>
                 </container>
             </container>
         </root>
