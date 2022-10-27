@@ -33,6 +33,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/helloworld"
+                        text="text one"
                         title="Demo Component Title 1"/>
                     <helloworld
                         jcr:created="{Date}2022-10-27T16:09:15.369+02:00"
