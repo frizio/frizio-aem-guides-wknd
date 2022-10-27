@@ -79,4 +79,5 @@
             </container>
         </root>
     </jcr:content>
+    <hello-world-page/>
 </jcr:root>
