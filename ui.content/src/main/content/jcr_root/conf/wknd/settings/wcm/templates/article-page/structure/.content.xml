@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:lastModified="{Date}2022-10-28T16:09:01.889+02:00"
+        cq:lastModified="{Date}2022-10-28T16:12:28.172+02:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/article-page"
         jcr:primaryType="cq:PageContent"
@@ -54,6 +54,10 @@
                             jcr:primaryType="nt:unstructured"
                             offset="0"
                             width="8"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
                     </cq:responsive>
                 </container>
                 <container_1807443750
@@ -69,6 +73,10 @@
                             jcr:primaryType="nt:unstructured"
                             offset="1"
                             width="3"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
                     </cq:responsive>
                 </container_1807443750>
             </container>
