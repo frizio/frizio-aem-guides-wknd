@@ -347,6 +347,20 @@
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy>
             </page>
+            <breadcrumb jcr:primaryType="nt:unstructured">
+                <policy_1666955890277
+                    jcr:lastModified="{Date}2022-10-28T13:19:45.628+02:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Article Page - Breadcrumb"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    disableShadowing="false"
+                    hideCurrent="false"
+                    showHidden="false"
+                    startLevel="4">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                </policy_1666955890277>
+            </breadcrumb>
         </components>
     </wknd>
 </jcr:root>
