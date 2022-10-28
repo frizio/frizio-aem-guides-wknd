@@ -314,6 +314,16 @@
                         </assetToComponentMapping>
                     </cq:authoring>
                 </policy_1575040440977>
+                <policy_27335370423200
+                    jcr:lastModified="{Date}2022-10-28T16:03:23.912+02:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Article Page - Side Rail"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    components="[/apps/wknd/components/button,/apps/wknd/components/download,/apps/wknd/components/image,/apps/wknd/components/list,/apps/wknd/components/separator,/apps/wknd/components/text,/apps/wknd/components/title]"
+                    layoutDisabled="false">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                </policy_27335370423200>
             </container>
             <teaser jcr:primaryType="nt:unstructured">
                 <policy_1575031387650
