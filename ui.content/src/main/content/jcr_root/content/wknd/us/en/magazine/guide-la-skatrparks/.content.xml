@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-11-07T15:53:16.762+01:00"
+        cq:lastModified="{Date}2022-11-07T16:06:23.245+01:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/article-page"
         jcr:primaryType="cq:PageContent"
@@ -21,10 +21,12 @@
                 <image
                     jcr:created="{Date}2022-10-28T13:14:21.867+02:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-10-28T13:16:03.217+02:00"
+                    jcr:lastModified="{Date}2022-11-07T15:57:54.196+01:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd/components/image"/>
+                    sling:resourceType="wknd/components/image"
+                    fileReference="/content/dam/wknd/en/magazine/la-skateparks/article_01_hero.png"
+                    imageFromPageImage="false"/>
                 <container
                     jcr:created="{Date}2022-10-28T13:41:06.357+02:00"
                     jcr:createdBy="admin"
@@ -45,22 +47,41 @@
                     <title_1159107226
                         jcr:created="{Date}2022-10-28T16:30:02.602+02:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-10-28T16:30:39.045+02:00"
+                        jcr:lastModified="{Date}2022-11-07T16:02:44.856+01:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="By author"
+                        jcr:title="By Stacey Rosewells"
                         sling:resourceType="wknd/components/title"
                         linkTarget="_self"
                         type="h4"/>
                     <text
                         jcr:created="{Date}2022-10-28T16:31:13.956+02:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-10-28T16:31:51.825+02:00"
+                        jcr:lastModified="{Date}2022-11-07T16:02:31.169+01:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/text"
-                        text="&lt;p>Lorem ipsum...&lt;/p>&#xd;&#xa;"
+                        text="&lt;p>Contrary to popular belief skateboarding, the sport as we know it was not invented by Marty McFly as depicted in the box office hit Back to the Future. It is widely considered that the sport was invented in California by surfers who wanted something to do when the ocean waves went &amp;quot;flat&amp;quot; or in non-surfer terms when there were no waves in the early 1950s. This was termed &amp;quot;sidewalk surfing&amp;quot; as a never ending wave that surfers could drop in on, unless it was raining. Los Angeles is long considered the epicenter of this alternative sport. The sport grew slowly, mostly on the west coast, finally becoming mainstream into the 1980s. In the summer of 2020 skateboarding will make its debut in the Olympics. In honor of this historic achievement we tracked down the top skate spots in greater Los Angeles.&lt;br>&#xd;&#xa;&lt;br>&#xd;&#xa;Vans off the Wall Skatepark, Huntington Beach located in Orange County, Vans Huntington Beach is a skate park paradise. With a cool ocean breeze and always sunny weather makes this destination a good time, anytime. The layout includes an enormous street skating area with something for everyone. There are multiple connecting bowls, easily 15 feet deep which contain top of the line concrete and is well maintained. Multiple stairs, rails, and ramps complete this great skatepark. Whether your an amateur, still attempting your first kick flip or an experience pro, polishing off that back-side 900 Vans H.B. will have something for you.&lt;br>&#xd;&#xa;&lt;/p>&#xd;&#xa;"
                         textIsRich="true"/>
+                    <text_1785267019
+                        jcr:created="{Date}2022-11-07T16:03:12.716+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-11-07T16:04:52.145+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/text"
+                        text="&lt;blockquote>&amp;quot;There is no better place to shred then Los Angeles.”.&lt;/blockquote>&#xd;&#xa;&lt;p>- Jacob Waters - Pro Stakers&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"/>
+                    <title_1501613362
+                        jcr:created="{Date}2022-11-07T16:05:57.701+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-11-07T16:06:23.241+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Venice beach"
+                        sling:resourceType="wknd/components/title"
+                        linkTarget="_self"
+                        type="h2"/>
                 </container>
                 <container_1807443750
                     jcr:created="{Date}2022-10-28T16:00:11.095+02:00"
