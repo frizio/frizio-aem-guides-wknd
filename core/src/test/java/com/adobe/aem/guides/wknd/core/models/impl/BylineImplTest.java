@@ -67,7 +67,10 @@ public class BylineImplTest {
 
     @Test
     void testIsEmpty() {
-        fail("Not yet implemented");
+        ctx.currentResource("/content/empty");
+        Byline byline = ctx.request().adaptTo(Byline.class);
+
+        assertTrue(byline.isEmpty());
     }
 
 }
