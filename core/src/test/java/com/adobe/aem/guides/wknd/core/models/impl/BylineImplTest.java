@@ -106,4 +106,12 @@ public class BylineImplTest {
         assertTrue(byline.isEmpty());
     }
 
+    @Test
+    public void testIsNotEmpty() {
+        ctx.currentResource("/content/byline");
+        when(image.getSrc()).thenReturn("/content/bio.png");
+        Byline byline = ctx.request().adaptTo(Byline.class);
+        assertFalse(byline.isEmpty());
+    }
+
 }
