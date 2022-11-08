@@ -86,4 +86,24 @@ public class BylineImplTest {
         assertTrue(byline.isEmpty());
     }
 
+    @Test
+    public void testIsEmpty_WithoutImage() {
+        ctx.currentResource("/content/byline");
+        lenient().when(
+                    modelFactory.getModelFromWrappedRequest(eq(ctx.request()),
+                    any(Resource.class),
+                    eq(Image.class))
+                ).thenReturn(null);
+        Byline byline = ctx.request().adaptTo(Byline.class);
+        assertTrue(byline.isEmpty());
+    }
+
+    @Test
+    public void testIsEmpty_WithoutImageSrc() {
+        ctx.currentResource("/content/byline");
+        when(image.getSrc()).thenReturn("");
+        Byline byline = ctx.request().adaptTo(Byline.class);
+        assertTrue(byline.isEmpty());
+    }
+
 }
