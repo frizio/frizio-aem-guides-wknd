@@ -80,7 +80,7 @@
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd/components/byline"
                         fileReference="/content/dam/wknd/en/magazine/la-skateparks/stacey-roswells.jpg"
-                        name="Stacey Roswells"
+                        name="Stacey Roswells Jr."
                         occupations="[Photographer,Blogger,Youtubber]"/>
                 </container>
                 <container_1807443750
