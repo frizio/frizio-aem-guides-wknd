@@ -2,6 +2,7 @@ package com.adobe.aem.guides.wknd.core.models.impl;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import com.adobe.aem.guides.wknd.core.models.Byline;
 import io.wcm.testing.mock.aem.junit5.AemContext;
 import io.wcm.testing.mock.aem.junit5.AemContextExtension;
 import org.junit.jupiter.api.BeforeEach;
@@ -22,8 +23,15 @@ public class BylineImplTest {
     }
 
     @Test
-    void testGetName() {
-        fail("Not yet implemented");
+    public void testGetName() {
+        final String expected = "Jane Doe";
+
+        ctx.currentResource("/content/byline");
+        Byline byline = ctx.request().adaptTo(Byline.class);
+
+        String actual = byline.getName();
+
+        assertEquals(expected, actual);
     }
 
     @Test
